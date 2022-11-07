@@ -1,0 +1,264 @@
+{
+    "name": "Chile",
+    "children": [
+        {
+            "name": "XV Región",
+            "children": [
+                {
+                    "name": "Arica",
+                    "children": [
+                        {
+                            "name": "Arica",
+                            "children": []
+                        },
+                        {
+                            "name": "Camarones",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Parinacota",
+                    "children": [
+                        {
+                            "name": "General Lagos",
+                            "children": []
+                        },
+                        {
+                            "name": "Putre",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "I Región",
+            "children": [
+                {
+                    "name": "Iquique",
+                    "children": [
+                        {
+                            "name": "Alto Hospicio"
+                        },
+                        {
+                            "name": "Iquique"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pozo Almonte",
+                    "children": [
+                        {
+                            "name": "Camiña"
+                        },
+                        {
+                            "name": "Colchane"
+                        },
+                        {
+                            "name": "Huara"
+                        },
+                        {
+                            "name": "Pica"
+                        },
+                        {
+                            "name": "Pozo Almonte"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "II Región",
+            "children": [
+                {
+                    "name": "Antofagasta",
+                    "children":[
+                        {
+                            "name": "Antofagasta"
+                        },
+                        {
+                            "name": "Mejillones"
+                        },
+                        {
+                            "name": "Sierra Gorda"
+                        },
+                        {
+                            "name": "Taltal"
+                        }
+                    ]
+                },
+                {
+                    "name": "El Loa",
+                    "children":[
+                        {
+                            "name": "Calama"
+                        },
+                        {
+                            "name": "Ollagüe"
+                        },
+                        {
+                            "name": "San Pedro de Atacama"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tocopilla",
+                    "children":[
+                        {
+                            "name": "Maria Elena"
+                        },
+                        {
+                            "name": "Tocopilla"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "III Región",
+            "children": [
+                {
+                    "name": "Chañaral",
+                    "children":[
+                        {
+                            "name": "Chañaral"
+                        },
+                        {
+                            "name": "Diego de Almagro"
+                        }
+                    ]
+                },
+                {
+                    "name": "Copiapó",
+                    "children":[
+                        {
+                            "name": "Caldera"
+                        },
+                        {
+                            "name": "Copiapó"
+                        },
+                        {
+                            "name": "Tierra Amarilla"
+                        }
+                    ]
+                },
+                {
+                    "name": "Huasco",
+                    "children":[
+                        {
+                            "name": "Alto del Carmen"
+                        },
+                        {
+                            "name": "Freirina"
+                        },
+                        {
+                            "name": "Huasco"
+                        },
+                        {
+                            "name": "Vallenar"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "IV Región",
+            "children": [
+                {
+                    "name": "Elqui",
+                    "children": [
+                        {
+                            "name": "Andacollo"
+                        },
+                        {
+                            "name": "Coquimbo"
+                        },
+                        {
+                            "name": "La Higuera"
+                        },
+                        {
+                            "name": "La Serena"
+                        },
+                        {
+                            "name": "Paihuano"
+                        },
+                        {
+                            "name": "Vicuña"
+                        }
+                    ]
+                },
+                {
+                    "name": "Limari",
+                    "children": [
+                        {
+                            "name": "Combarbala"
+                        },
+                        {
+                            "name": "Monte Patria"
+                        },
+                        {
+                            "name": "Ovalle"
+                        },
+                        {
+                            "name": "Punitaqui"
+                        },
+                        {
+                            "name": "Rio Hurtado"
+                        }
+                    ]
+                },
+                {
+                    "name": "Choapa",
+                    "children": [
+                        {
+                            "name": "Canela"
+                        },
+                        {
+                            "name": "Illapel"
+                        },
+                        {
+                            "name": "Los Vilos"
+                        },
+                        {
+                            "name": "Salamanca"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "V Región"
+        },
+        {
+            "name": "RM"
+        },
+        {
+            "name": "VI Región"
+        },
+        {
+            "name": "VII Región"
+        },
+        {
+            "name": "XVI Región"
+        },
+        {
+            "name": "VIII Región"
+        },
+        {
+            "name": "IX Región"
+        },
+        {
+            "name": "XIV Región"
+        },
+        {
+            "name": "X Región"
+        },
+        {
+            "name": "XI Región"
+        },
+        {
+            "name": "XII Región"
+        }
+    ]
+}
