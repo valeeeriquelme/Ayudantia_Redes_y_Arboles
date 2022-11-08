@@ -1,4 +1,9 @@
-const WIDTH = 1500;
+/*
+La diferencia en este codigo radica en las dimensiones usadas WIDTH Y HEIGHT, ademas de las coordenadas ocupadas para
+posicionar los nodos, enlaces y textos, lineas 46, 47, 53, 54, 72, 73, las cuales son inversas en el arbol horizontal
+*/
+
+const WIDTH = 15000;
 const HEIGHT = 900;
 const MARGIN = {
     top: 30,

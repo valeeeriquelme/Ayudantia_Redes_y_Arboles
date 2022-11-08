@@ -1,3 +1,8 @@
+/*
+Este código está comentado en arbolColapsado.js ya que esta es una versión preliminar para entender como funciona
+d3.tree y d3.hierarchy que no contiene la funcionalidad de colapsar los nodos
+*/
+
 const WIDTH = 1500;
 const HEIGHT = 1500;
 const MARGIN = {
