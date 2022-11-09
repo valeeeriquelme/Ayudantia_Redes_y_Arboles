@@ -4,7 +4,7 @@ d3.tree y d3.hierarchy que no contiene la funcionalidad de colapsar los nodos
 */
 
 const WIDTH = 1500;
-const HEIGHT = 1500;
+const HEIGHT = 4000;
 const MARGIN = {
     top: 30,
     right: 50,
@@ -33,8 +33,8 @@ function joinDeDatos(datos) {
 
     let layout = d3.tree();
     layout.size(
-        [WIDTH - MARGIN.left - MARGIN.right, 
-        HEIGHT - MARGIN.top - MARGIN.bottom]
+        [HEIGHT - MARGIN.top - MARGIN.bottom,
+        WIDTH - MARGIN.left - MARGIN.right]
     );
 
     layout(raiz);
