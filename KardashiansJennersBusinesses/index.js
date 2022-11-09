@@ -93,40 +93,40 @@ const iniciarSimulacion = (nodos, enlaces) => {
     .on("end", finArrastre);
 
     // Aggrego los elementos al svg, utilizando las posiciones x e y para los nodos y enlaces que se calcularon en la simulación
-    const lineas = svg
-    .append("g")
-    .attr("stroke", "#999")
-    .attr("stroke-opacity", 0.6)
-    .selectAll("line")
-    .data(enlaces)
-    .join("line")
-    .attr("stroke-width", 2);
+    // const lineas = svg
+    // .append("g")
+    // .attr("stroke", "#999")
+    // .attr("stroke-opacity", 0.6)
+    // .selectAll("line")
+    // .data(enlaces)
+    // .join("line")
+    // .attr("stroke-width", 2);
 
-    const circulos = svg
-    .append("g")
-    .attr("stroke", "#fff")
-    .attr("stroke-width", 1.5)
-    .selectAll("circle")
-    .data(nodos)
-    .join("circle")
-    .attr("r", d => escalaRadio(d.negocios))
-    .attr("fill", (d) => d.color)
-    .call(drag);
+    // const circulos = svg
+    // .append("g")
+    // .attr("stroke", "#fff")
+    // .attr("stroke-width", 1.5)
+    // .selectAll("circle")
+    // .data(nodos)
+    // .join("circle")
+    // .attr("r", d => escalaRadio(d.negocios))
+    // .attr("fill", (d) => d.color)
+    // .call(drag);
     
-    // Agregamos evento que nos imprime el nombre del nodo al hacer hover
-    circulos.on("mouseover", function (e, d) { 
-        d3.select(this).attr("fill", "gray");
-        console.log(d.nombre);
-    });
-    circulos.on("mouseout", function (d) {
-        d3.select(this).attr("fill", d.color);
-    });
+    // // Agregamos evento que nos imprime el nombre del nodo al hacer hover
+    // circulos.on("mouseover", function (e, d) { 
+    //     d3.select(this).attr("fill", "gray");
+    //     console.log(d.nombre);
+    // });
+    // circulos.on("mouseout", function (d) {
+    //     d3.select(this).attr("fill", d.color);
+    // });
 
-    // Agregamos evento que "desfixea" al nodo al hacer click
-    circulos.on("click", function (e, d) {
-        d.fx = null;
-        d.fy = null;
-    });
+    // // Agregamos evento que "desfixea" al nodo al hacer click
+    // circulos.on("click", function (e, d) {
+    //     d.fx = null;
+    //     d.fy = null;
+    // });
        
     // Evento que escucha al timer de la simulación y actualiza las posiciones de los nodos y enlaces
     simulacion.on('tick', () => {
