@@ -131,15 +131,15 @@ const iniciarSimulacion = (nodos, enlaces) => {
     // Evento que escucha al timer de la simulación y actualiza las posiciones de los nodos y enlaces
     simulacion.on('tick', () => {
         console.log(simulacion.alpha(), simulacion.alpha() < simulacion.alphaMin());
-        //imprimirEstadoNodo(nodos, 0);
-        circulos.attr("cx", (d) => setMaxMin(d, d.x, width))
-        .attr("cy", (d) => setMaxMin(d, d.y, height));
+        imprimirEstadoNodo(nodos, 0);
+        // circulos.attr("cx", (d) => setMaxMin(d, d.x, width))
+        // .attr("cy", (d) => setMaxMin(d, d.y, height));
 
-        lineas
-              .attr("x1", (d) => setMaxMin(d.source, d.source.x, width))
-              .attr("y1", (d) => setMaxMin(d.source, d.source.y, height))
-              .attr("x2", (d) => setMaxMin(d.target, d.target.x, width))
-              .attr("y2", (d) => setMaxMin(d.target, d.target.y, height));
+        // lineas
+        //       .attr("x1", (d) => setMaxMin(d.source, d.source.x, width))
+        //       .attr("y1", (d) => setMaxMin(d.source, d.source.y, height))
+        //       .attr("x2", (d) => setMaxMin(d.target, d.target.x, width))
+        //       .attr("y2", (d) => setMaxMin(d.target, d.target.y, height));
     });
 
     
